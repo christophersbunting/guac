@@ -5,7 +5,7 @@ class CreateUsers < ActiveRecord::Migration
       t.string :email
       t.boolean :guac
       t.boolean :beer
-      t.string :other
+      t.boolean :other
 
       t.timestamps
     end

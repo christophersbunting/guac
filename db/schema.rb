@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(:version => 20120721174142) do
     t.string   "email"
     t.boolean  "guac"
     t.boolean  "beer"
-    t.string	 "other"
+    t.boolean	 "other"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
