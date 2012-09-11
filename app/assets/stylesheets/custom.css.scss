@@ -87,6 +87,7 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid $grayMediumLight;
+  text-align: center;
   color: $grayLight;
   a {
     color: $gray;
@@ -94,9 +95,6 @@ footer {
       color: $grayDarker;
     }
   }  
-  small { 
-    float: left; 
-  }
   ul {
     float: right;
     list-style: none;

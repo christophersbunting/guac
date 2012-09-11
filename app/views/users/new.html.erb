@@ -12,6 +12,12 @@
       <%= f.label :email %>
       <%= f.text_field :email %>
 
+      <%= f.label :guac %>
+      <%= f.check_box :guac, {:class => "guac"} %>
+
+      <%= f.label :beer %>
+      <%= f.check_box :beer, {:class => "beer"} %>
+
       <br>
       <%= f.submit "Create my account", class: "btn btn-large btn-primary" %>
     <% end %>
