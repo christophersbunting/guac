@@ -36,6 +36,11 @@ textarea {
   margin-bottom: 10px;
 }
 
+#instructions p {
+  margin: 0px;
+  line-height: 20px;
+}
+
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
@@ -56,6 +61,22 @@ h2 {
 	text-align: center;
 	font-weight: normal;
 	color: $grayLight;
+}
+
+h3 {
+  font-size: 2em;
+  letter-spacing: -2px;
+  margin-bottom: px;
+  text-align: left;
+}
+
+h4 {
+  font-size: 1em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: right;
+  font-weight: normal;
+  color: $grayLight;
 }
 
 p {
@@ -132,10 +153,6 @@ aside {
   margin-right: 10px;
 }
 
-  .gravatar {
-    float: left;
-    margin-right: 10px;
-  }
 /* forms */
 
   input, textarea, select, .uneditable-input {
