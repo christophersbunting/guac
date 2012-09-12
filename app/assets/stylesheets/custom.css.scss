@@ -18,6 +18,7 @@ html {
 
 body {
   padding-top: 205px;
+  background-color: #b0c4de; 
 }
 
 section {
@@ -45,7 +46,7 @@ textarea {
 #contact p {
   margin: 0px;
   line-height: 20px;
-  text-align: left
+  text-align: center
 }
 
 
@@ -87,6 +88,15 @@ h4 {
   letter-spacing: -1px;
   margin-bottom: 30px;
   text-align: right;
+  font-weight: normal;
+  color: $grayLight;
+}
+
+h5 {
+  font-size: 30px;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
   font-weight: normal;
   color: $grayLight;
 }
