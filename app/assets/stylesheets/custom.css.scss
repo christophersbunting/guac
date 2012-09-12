@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  padding-top: 60px;
+  padding-top: 205px;
 }
 
 section {
@@ -39,6 +39,18 @@ textarea {
 #instructions p {
   margin: 0px;
   line-height: 20px;
+  text-align: right;
+}
+
+#contact p {
+  margin: 0px;
+  line-height: 20px;
+  text-align: left
+}
+
+
+.top-bar {
+  height: 500px;
 }
 
 /* typography */
