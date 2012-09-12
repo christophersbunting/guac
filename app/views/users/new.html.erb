@@ -7,6 +7,7 @@
 <div class="center">
   <div id="instructions">
     <%= form_for(@user) do |f| %>
+      <%= render 'shared/error_messages' %>
 
       <%= f.label :name %>
       <%= f.text_field :name %>
@@ -14,12 +15,16 @@
       <%= f.label :email %>
       <%= f.text_field :email %>
 
-      <div class="center-btn-group" data-toggle="buttons-radio">
-        <button type="button" class="btn">Guacamole</button>
-        <button type="button" class="btn">Beer</button>
-        <button type="button" class="btn">Something else special</button>
-      </div>
+      <%= f.label :guacamole %>
+      <%= f.check_box :guac, {:class => "guac"} %>
 
+      <%= f.label :Beverages %>
+      <%= f.check_box :beer, {:class => "beer"} %>
+
+      <%= f.label :Other %>
+      <%= f.check_box :other, {:class => "beer"} %>
+
+      <br>
       <br>
       <%= f.submit "See you then!", class: "btn btn-large btn-primary" %>
     <% end %>
