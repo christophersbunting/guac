@@ -61,14 +61,12 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-size: 3em;
-	letter-spacing: -2px;
 	margin-bottom: 30px;
 	text-align: center;
 }
 
 h2 {
 	font-size: 1.7em;
-	letter-spacing: -1px;
 	margin-bottom: 30px;
 	text-align: center;
 	font-weight: normal;
@@ -77,14 +75,12 @@ h2 {
 
 h3 {
   font-size: 2em;
-  letter-spacing: -2px;
   margin-bottom: px;
   text-align: left;
 }
 
 h4 {
   font-size: 1em;
-  letter-spacing: -1px;
   margin-bottom: 30px;
   text-align: right;
   font-weight: normal;
@@ -93,7 +89,6 @@ h4 {
 
 h5 {
   font-size: 30px;
-  letter-spacing: -1px;
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
@@ -113,7 +108,6 @@ p {
   font-size: 1.7em;
   color: white;
   text-transform: uppercase;
-  letter-spacing: -1px;
   padding-top: 59px;
   font-weight: bold;
   line-height: 1;
@@ -163,7 +157,6 @@ aside {
     h1 {
       font-size: 1.6em;
       text-align: left;
-      letter-spacing: -1px;
       margin-bottom: 3px;
     }
   }
